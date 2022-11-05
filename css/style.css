@@ -1,0 +1,36 @@
+@media screen and (min-width: 1280px) 
+{
+   body 
+   {
+    width: 1280px;
+    background-color: #F00;
+   }
+   #tablet , #moblie
+   {
+    display: none;
+   }
+}
+@media screen and (min-width: 480px) and (max-width: 1279px)
+{
+   body 
+   {
+    width: 480px;
+    background-color: #0F0;
+   }
+   #pc , #moblie
+   {
+    display: none;
+   }
+}
+@media screen and (min-width: 479px) 
+{
+   body 
+   {
+    width: 100%;
+    background-color: #00F;
+   }
+   #tablet , #pc
+   {
+    display: none;
+   }
+}
