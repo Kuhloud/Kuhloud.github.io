@@ -1,0 +1,5 @@
+Student name: Lucas Cheung
+Student number: 701340
+Student class: INF1D
+URL student GitHub website: https://TheLucas27.github.io
+URL student GitHub repository: https://github.com/TheLucas27/TheLucas27.github.io
