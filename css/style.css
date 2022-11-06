@@ -9,6 +9,12 @@
    {
     display: none;
    }
+   .navigation
+   {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+   }
 }
 @media screen and (min-width: 480px) and (max-width: 1279px)
 {
