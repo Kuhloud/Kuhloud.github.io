@@ -4,10 +4,6 @@
 }
 @media screen and (min-width: 1280px) 
 {
-   nav *
-   {
-    margin: 1em;
-   }
    body 
    {
     width: 1280px;
@@ -16,12 +12,22 @@
    .navigationbar
    {
     display: flex;
-    flex-direction: column;
-    color: #000;
+    background: #4472c4;
+    box-shadow: 0px 0px 0px #000;
+
    }
    .menuItem
    {
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 1em;
+    color: #000;
+    list-style: none;
+   }
+   .menuItem a
+   {
+    color: #FFF;
+    text-decoration: none;
    }
    .articlecontainers
    {
