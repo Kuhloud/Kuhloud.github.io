@@ -21,8 +21,11 @@
     justify-content: flex-start;
     align-content: center;
     margin: 1em;
+    box-sizing: border-box;
     color: #000;
     list-style: none;
+    border-right: 1px solid #FFF;
+    width: 100%;
    }
    .menuItem a
    {
