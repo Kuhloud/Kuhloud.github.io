@@ -6,25 +6,23 @@
 {
    body 
    {
-    width: 1280px;
-    background-color: #F00;
+    height: 1280px;
+    background-color: rgb(136, 123, 129);
+    color: #FFF;
    }
    .navigationbar
    {
     display: flex;
-    background: #4472c4;
+    background-color: #4472c4;
     box-shadow: 0px 0px 0px #000;
-
    }
    .menuItem
    {
-    justify-content: flex-start;
-    align-content: center;
     margin: 1em;
     box-sizing: border-box;
     color: #000;
     list-style: none;
-    border-right: 1px solid #FFF;
+    border-right: 2px solid #FFF;
     width: 100%;
    }
    .menuItem a
@@ -32,15 +30,45 @@
     color: #FFF;
     text-decoration: none;
    }
-   .articlecontainers
-   {
-    display: flex;
-    border-width: 1em;
-    border-style: solid;
-   }
+
    .indexarticles
    {
+    border: #000;
+    border-width: 1em;
+    border-style: solid;
+    display: flex;
     flex-direction: column;
+   }
+   .asidecontainers
+   {
+    right: 0px;
+    position: fixed;
+   }
+   .asideitems
+   {
+    border-style: solid;
+    display: flex;
+    border:#000;
+    border-width: 16px;
+    box-shadow: #000;
+    text-decoration: dotted;
+    background-color: #FFF2CC;
+   }
+   .asideitems a
+   {
+    color: #000;
+   }
+   #cookie
+   {
+    background-color: rgba(255, 170, 0, 0.5);
+    z-index: 9999;
+    color: #FFF;
+    width: 16%;
+    margin-left: 1em;
+    right: 0px;
+    bottom: 0px;
+    align-items: flex-end;
+    position: fixed;
    }
    #tablet , #moblie
    {
