@@ -200,7 +200,7 @@ width: 35px;
    /* index */
    body 
    {
-    width: 100%;
+    width: 479px;
     background-color: rgb(136, 123, 129);
     color: #FFF;
    }
@@ -212,9 +212,8 @@ width: 35px;
    #hamburgericon
    {
    background-color: #4472c4;
-   color: #FFF;
    cursor: pointer;
-   padding: 10px 40px;
+   padding: 9px 100%;
    }
    .hamburgerbar
    {
