@@ -43,26 +43,37 @@ width: 35px;
    {
    color:#FF0;
    }
-   .articlecontainers
+   .articlecontainers-flexbox
    {
     border: #000;
     border-width: 1em;
     border-style: solid;
+    background-color: #FFF;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   #article1
+   .articlecontainers-flexbox > article
    {
-    order: 1;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   text-align: left;
    }
-   #article2
+   #flexbox-article1
    {
-    order: 2;
+   order: 1;
+   margin-bottom: 10px;
    }
-   #article3
+   #flexbox-article2
    {
-    order: 3;
+   order: 2;
+   }
+   #flexbox-article3
+   {
+   order: 3;
+   margin-top: 10px;
    }
    .asidecontainers
    {
@@ -96,6 +107,66 @@ width: 35px;
     bottom: 0px;
     align-items: flex-end;
     position: fixed;
+   }
+   #articlecontainers-grid
+   {
+   background-color: #FFF;
+   border: #000;
+   border-width: 1em;
+   border-style: solid;
+   display: grid;
+   padding: 10px;
+   grid-template-columns: auto auto;
+   grid-gap: 10px;
+   }
+   #articlecontainers-grid > article
+   {
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   text-align: left;
+   }
+   #asidecontailers-grid
+   {
+   bottom: 10px;
+   background-color: #FFF;
+   border: #000;
+   border-width: 1em;
+   border-style: solid;
+   display: grid;
+   padding: 10px;
+   grid-template-columns: auto auto;
+   grid-gap: 10px;
+   }
+   #asidecontainers-grid > aside
+   {
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   }
+   #grid-article1
+   {
+   grid-area: 1 / 2 / span 6 / span 1;
+   }
+   #grid-article2
+   {
+   grid-area: 1 / 1 / span 2 / span 1;
+   }
+   #grid-article3
+   {
+   grid-area: 1 / 3 / span 3 / span 1;
+   }
+   #grid-article4
+   {
+   grid-area: 4 / 3 / span 3 / span 1;
+   }
+   #grid-article5
+   {
+   grid-area: 3 / 1 / span 5 / span 1;
+   }
+   #grid-article6
+   {
+   grid-area: 7 / 2 / span 1 / span 2;
    }
    #tablet , #moblie , #hamburgericon , .hamburgermenu
    {
@@ -136,20 +207,33 @@ width: 35px;
    {
    color:#FF0;
    }
-   #article1
+   #flexbox-article1
    {
-    order: 3;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 3;
    }
-   #article2
+   #flexbox-article2
    {
-    order: 2;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 2;
    }
-   #article3
+   #flexbox-article3
    {
-    order: 1;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 1;
    }
-   .articlecontainers
+   .articlecontainers-flexbox
    {
+   background-color: #FFF;
     border: #000;
     border-width: 1em;
     border-style: solid;
@@ -277,20 +361,33 @@ width: 35px;
    {
     color:#FF0;
    }
-   #article1
+   #flexbox-article1
    {
-    order: 3;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 3;
    }
-   #article2
+   #flexbox-article2
    {
-    order: 2;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 2;
    }
-   #article3
+   #flexbox-article3
    {
-    order: 1;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 20px 0;
+   text-align: left;
+   order: 1;
    }
-   .articlecontainers
+   .articlecontainers-flexbox
    {
+   background-color: #FFF;
     border: #000;
     border-width: 1em;
     border-style: solid;
