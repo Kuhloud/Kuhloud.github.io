@@ -15,7 +15,7 @@ width: 35px;
    body 
    {
     height: 1280px;
-    background-color: rgb(136, 123, 129);
+    background-color: #6D6D6D;
     color: #FFF;
    }
    .navigationbar
@@ -44,6 +44,10 @@ width: 35px;
    .menuitem a:hover
    {
       color:#000;
+   }
+   .menuiten a:active
+   {
+
    }
    .articlecontainers-flexbox
    {
@@ -83,27 +87,35 @@ width: 35px;
     position: fixed;
     display: flex;
     border-style: solid;
-    border:#000;
+    margin: 10px;
+    border: #000;
+    border-width: 10px;
+    border-style: solid;
+    background-color: #FFF;
     padding: 10px;
-    border-width: 16px;
-    box-shadow: #000;
-    text-decoration: dotted;
-    background-color: #C49644;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
    }
-   .asidecontainers-flexbox > li
+   .asidecontainers-flexbox > aside
    {
    border: solid 10px #000;
-   background-color: #4472c4;
-   padding: 40px 10px;
-   text-align: left;  
+   background-color: #C49644;
+   padding: 40px 10px; 
    }
-   .asideitems
+   ol
    {
-   border: 2px solid #000;
+      position: solid;
+      left: 100px;
+   }
+   .asideheader
+   {
+   display: flex;
    }
    .asideitems a
    {
-    color: #000;
+   color: #FFF;
+   text-decoration: none;
    }
    #cookie
    {
@@ -135,6 +147,7 @@ width: 35px;
    padding: 40px 10px;
    text-align: left;
    }
+   /* product */
    #asidecontainers-grid
    {
    margin-top: 10px;
@@ -219,8 +232,16 @@ width: 35px;
    }
    #contact
    {
-      width: 1280px;
-      height: 20em;
+   border: solid 10px #000;
+   background-color: #00438E;
+   color: #FFF;
+   width: 1280px;
+   height: 20em;
+   }
+   #contact:focus
+   {
+   background-color: #8E4B00;
+   color: #FFF;
    }
    #tablet , #moblie , #hamburgericon , .hamburgermenu
    {
@@ -234,14 +255,16 @@ width: 35px;
    body 
    {
     height: 480px;
-    background-color: rgb(136, 123, 129);
+    background-color: #6D6D6D;
     color: #FFF;
    }
    .navigationbar
    {
-    display: inline-block;
-    background-color: #4472c4;
-    box-shadow: 0px 0px 0px #000;
+      border: #000;
+      border-width: 8px;
+      border-style: solid;
+      background-color: #4472c4;
+      display: flex;
    }
    .menuitem
    {
@@ -259,61 +282,71 @@ width: 35px;
    }
    .menuitem a:hover
    {
-   color:#FF0;
-   }
-   #flexbox-article1
-   {
-   border: solid 10px #000;
-   background-color: #4472c4;
-   padding: 20px 0;
-   text-align: left;
-   order: 3;
-   }
-   #flexbox-article2
-   {
-   border: solid 10px #000;
-   background-color: #4472c4;
-   padding: 20px 0;
-   text-align: left;
-   order: 2;
-   }
-   #flexbox-article3
-   {
-   border: solid 10px #000;
-   background-color: #4472c4;
-   padding: 20px 0;
-   text-align: left;
-   order: 1;
+   color:#000;
    }
    .articlecontainers-flexbox
    {
-   background-color: #FFF;
     border: #000;
-    border-width: 1em;
+    border-width: 10px;
     border-style: solid;
+    background-color: #FFF;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .asidecontainers
+   .articlecontainers-flexbox > article
    {
-    top: 100px;
-    display: flex;
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   text-align: left;
    }
-   .asideitems
+   #flexbox-article1
    {
+   order: 3;
+   margin-top: 10px;
+   }
+   #flexbox-article2
+   {
+   order: 2;
+   }
+   #flexbox-article3
+   {
+   order: 1;
+   margin-bottom: 10px;
+   }
+   .asidecontainers-flexbox
+   {
+    border: #000;
+    border-width: 10px;
     border-style: solid;
+    background-color: #FFF;
+    padding: 10px;
     display: flex;
-    flex-shrink: 0;
-    flex-grow: 0;
-    border:#000;
-    border-width: 16px;
-    box-shadow: #000;
-    text-decoration: dotted;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   }
+   .asidecontainers-flexbox > aside
+   {
+   border: solid 10px #000;
+   background-color: #C49644;
+   padding: 40px 10px; 
+   }
+   ol
+   {
+      position: solid;
+      left: 100px;
+   }
+   .asideheader
+   {
+   display: flex;
    }
    .asideitems a
    {
-    color: #000;
+   color: #FFF;
+   text-decoration: none;
    }
    #cookie
    {
@@ -339,7 +372,7 @@ width: 35px;
    body 
    {
     width: 479px;
-    background-color: rgb(136, 123, 129);
+    background-color:#6D6D6D;
     color: #FFF;
    }
    nav
