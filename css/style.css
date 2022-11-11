@@ -82,15 +82,24 @@ width: 35px;
     right: 0px;
     position: fixed;
     display: flex;
-   }
-   .asideitems
-   {
     border-style: solid;
     border:#000;
+    padding: 10px;
     border-width: 16px;
     box-shadow: #000;
     text-decoration: dotted;
-    background-color: #FFF2CC;
+    background-color: #C49644;
+   }
+   .asidecontainers-flexbox > li
+   {
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   text-align: left;  
+   }
+   .asideitems
+   {
+   border: 2px solid #000;
    }
    .asideitems a
    {
@@ -182,7 +191,25 @@ width: 35px;
    }
    #tablecontainer-grid
    {
+   margin-top: 10px;
+   background-color: #FFF;
+   border: #000;
+   border-width: 10px;
+   border-style: solid;
+   display: grid;
+   padding: 10px;
    grid-template-columns: auto auto auto auto auto;
+   grid-gap: 10px;
+   }
+   #tablecontainer-grid > tr
+   {
+   border: solid 10px #000;
+   background-color: #4472c4;
+   padding: 40px 10px;
+   }
+   #tablehead
+   {
+
    }
    #tablebody
    {
