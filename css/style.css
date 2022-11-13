@@ -63,14 +63,26 @@ width: 35px;
    padding: 40px 10px;
    text-align: left;
    }
-   figure
+   .flexbox-figure
    {
-   text-align: right;
+   border: solid 3px #FFF;
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+   float: right;
+   margin: auto;
    }
-   img
+   .img-index
    {
       width: 100px;
       height: 100px;
+   }
+   .fig-index
+   {
+      background-color: #000;
+      color: #FFF;
+      padding: 3px;
+      text-align: center;
    }
    #flexbox-article1
    {
@@ -156,10 +168,6 @@ width: 35px;
    #asidecontainers-grid
    {
    margin-top: 10px;
-   background-color: #FFF;
-   border: #000;
-   border-width: 10px;
-   border-style: solid;
    display: grid;
    padding: 10px;
    grid-template-columns: auto auto auto;
@@ -168,7 +176,7 @@ width: 35px;
    #asidecontainers-grid > aside
    {
    border: solid 10px #000;
-   background-color: #4472c4;
+   background-color: #C49644;
    padding: 60px 10px;
    }
    #grid-article1
@@ -212,18 +220,18 @@ width: 35px;
    {
    padding: 10px;
    grid-gap: 10px;
-   position: relative;
+   position: absolute;
    background-color: #FFF;
    border-width: 10px;
    border-style: solid;
    border: solid 10px #000;
    background-color: #4472c4;
    padding: 40px 10px;
-   width: 100%;
+   width: 80em;
    }
    th
    {
-      background:#4472c4;
+      background:#80A5FD;
       color: #FFF;
       border: solid 5px #000;
    }
@@ -256,7 +264,29 @@ width: 35px;
       background:#6D6D6D;
       color: #FFF;
       border: solid 5px #000;
+      position: absolute;
+      bottom: -277px;
    }
+   .asidecontainers
+   {
+      right: 0px;
+      position: absolute;
+      border-style: solid;
+      margin: 10px;
+      border: #000;
+      border-width: 10px;
+      border-style: solid;
+      background-color: #FFF;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+   .asideright
+   {
+      background-color: #C49644;
+   }
+   /* contact */
    #contact
    {
    border: solid 10px #000;
