@@ -134,7 +134,7 @@ width: 35px;
    color: #FFF;
    text-decoration: none;
    }
-   #cookie
+   .cookie
    {
     background-color: rgba(255, 170, 0, 0.5);
     z-index: 9999;
@@ -220,7 +220,7 @@ width: 35px;
    {
    padding: 10px;
    grid-gap: 10px;
-   position: absolute;
+   position: static;
    background-color: #FFF;
    border-width: 10px;
    border-style: solid;
@@ -269,6 +269,7 @@ width: 35px;
    }
    .asidecontainers
    {
+      bottom: 10px;
       right: 0px;
       position: absolute;
       border-style: solid;
@@ -289,7 +290,7 @@ width: 35px;
    /* contact */
    fieldset
    {
-      width: 70em;
+   width: 35em;
    }
    #contact
    {
@@ -304,6 +305,7 @@ width: 35px;
    background-color: #8E4B00;
    color: #FFF;
    }
+
    #tablet , #moblie , #hamburgericon , .hamburgermenu
    {
     display: none;
