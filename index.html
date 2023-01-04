@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="css/style.css"/>
+        <link rel="icon" href="img/Favicon.png" sizes="16x16" type="image/png"/>
         <meta charset="utf-8"/>
         <meta name="keyword" content="InHolland, webmarkup, html, css, index"/>
         <meta name="description" content="Index page for WebMarkup"/>
@@ -10,7 +11,8 @@
         <title>Index</title>
     </head>
     <body>
-    <header>        
+    <header>
+        <img src="img/Logo.svg" id="logo"/>  
         <h1>Placeholder Innovations</h1>
         <h2>The future is a placeholder</h2>
             <input class="hamburgermenu" type="checkbox" id="hamburgermenu">
@@ -34,8 +36,15 @@
             </ul>
         </nav>
     </header>
-    <video>
-
+    <video class="video-desktop-tablet" autoplay muted loop>
+        <source src="videos/xi’an-international-football-centre-by-zaha-hadid-architects-ytmp4converter.com-en.mp4" type="video/mp4">
+        <source src="videos/xian-international-football-cent.ogg" type="video/ogg">
+        Your browser does not support the video tag
+    </video>
+    <video class="video-mobile" autoplay muted loop>
+        <source src="videos/xi’an-international-football-centre-by-zaha-hadid-architects-ytmp4converter.com-en(mobile).mp4" type="video/mp4">
+        <source src="videos/xian-international-football-cent(mobile).ogg" type="video/ogg">
+        Your browser does not support the video tag
     </video>
     <body>
     <section class="asidecontainers-flexbox">
@@ -64,59 +73,77 @@
     </section>
         <section class="articlecontainers-flexbox">
             <article id="flexbox-article1">
-                <header>
+                <header class="textposition">
                     <h3><em>Prosthetics</em></h3>
                 </header>
-                <p>
-                    In short, prostheses are artificial devices that replace missing body parts. 
-                    This technology can help people, who, due to trauma, or disease, gain the ability to perform sports again.
-                    Due to advances in artificial limbs can be made with several types of stronger material, such as: plastic, carbon fiber. One person has even made his own personal prosthesis out of Lego.
-                    And newer developments may lead to artificial limbs connected to our brains, or robotically controlled, a common gadget in the future.
-                </p>
                 <figure class="figure-index">
                     <a href="https://en.wikipedia.org/wiki/Prosthesis">
                         <img src="img/54569696-prosthetic-leg.png" title="A prosthetic leg" alt="artificial limb" class="img-index"/>
                     </a>
                     <figcaption class="fig-index">Image by <a href="https://www.123rf.com/photo_54569696_prosthetic-leg.html">plpchirawong.</a></figcaption>
                 </figure>
-                <footer>
+                <p class="textposition">
+                    In short, prostheses are artificial devices that replace missing body parts. 
+                    This technology can help people, who, due to trauma, or disease, gain the ability to perform sports again.
+                    Due to advances in artificial limbs can be made with several types of stronger material, such as: plastic, carbon fiber. One person has even made his own personal prosthesis out of Lego.
+                    And newer developments may lead to artificial limbs connected to our brains, or robotically controlled, a common gadget in the future.
+                </p>
+                <figure class="figure-index-mobile">
+                    <a href="https://en.wikipedia.org/wiki/Prosthesis">
+                        <img src="img/54569696-prosthetic-leg.png" title="A prosthetic leg" alt="artificial limb" class="img-index-mobile"/>
+                    </a>
+                    <figcaption class="fig-index-mobile">Image by <a href="https://www.123rf.com/photo_54569696_prosthetic-leg.html">plpchirawong.</a></figcaption>
+                </figure>
+                <footer class="textposition">
                     <a href="https://en.wikipedia.org/wiki/Prosthesis">More info on prosthetics</a>
                 </footer>
             </article>
             <article id="flexbox-article2">
-                <header>
+                <header class="textposition">
                     <h3><em>Xi&#39;an International Football Centre</em></h3>
                 </header>
-                <p>
-                    The Xi&#39;an International Football Centre is a football stadium, which is currently under construction, in the Chinese city of Xi&#39;an. 
-                    Designed by Zaha Hadid Architects, this new stadium was set to be completed before the 2023 APC Asian cup, which unfortunately was moved to Qatar.
-                    Despite the circumstances, it is still a marvel of engineering, and while it won&#39;t be used by the time of the Asian cup, it will have cultural activities taking place when not being used for sports.
-                </p>
                 <figure class="figure-index">
                     <a href="https://www.zaha-hadid.com/architecture/xian-international-football-centre/">
                         <img src="img/1_ZHA_Xian-International-Football-Centre_lowres.png" title="Xi&#39;an InternationalFootballCentre" alt="new Chinese stadium" class="img-index"/>
                     </a>
                     <figcaption class="fig-index">Image by <a href="https://www.zaha-hadid.com/architecture/xian-international-football-centre/">Zaha Hadid Architects.</a></figcaption>
                 </figure>
-                <footer>
+                <p class="textposition">
+                    The Xi&#39;an International Football Centre is a football stadium, which is currently under construction, in the Chinese city of Xi&#39;an. 
+                    Designed by Zaha Hadid Architects, this new stadium was set to be completed before the 2023 APC Asian cup, which unfortunately was moved to Qatar.
+                    Despite the circumstances, it is still a marvel of engineering, and while it won&#39;t be used by the time of the Asian cup, it will have cultural activities taking place when not being used for sports.
+                </p>
+                <figure class="figure-index-mobile">
+                    <a href="https://www.zaha-hadid.com/architecture/xian-international-football-centre/">
+                        <img src="img/1_ZHA_Xian-International-Football-Centre_lowres.png" title="Xi&#39;an InternationalFootballCentre" alt="new Chinese stadium" class="img-index-mobile"/>
+                    </a>
+                    <figcaption class="fig-index-mobile">Image by <a href="https://www.123rf.com/photo_54569696_prosthetic-leg.html">Zaha Hadid Architects.</a></figcaption>
+                </figure>
+                <footer class="textposition">
                     <a href="https://www.zaha-hadid.com/architecture/xian-international-football-centre/">More info on the Xi&#39;an International Football Centre</a>
                 </footer>
             </article>
              <article id="flexbox-article3">
-                <header>
+                <header class="textposition">
                     <h3><em>Abrasions</em></h3>
                 </header>
-                <p>
-                    Abrasions are injuries to the skin. It commonly occurs when exposed skin comes into moving contact with rough surfaces, which grinds the upper layers of the epidermis.
-                    Abrasions during sport usually happens in the form of stumbling, sliding, or coming in contact with rough surfaces, which results in bacteria and other diseases entering your wound, and can cause seriously harm your body. Perfect for allowing your immune system to go to work; and closing the abrasions, and the generation of memory cells for future disease infections.
-                </p>
                 <figure class="figure-index">
                     <a href="https://en.wikipedia.org/wiki/Abrasion_(medical)">
                         <img src="img/abrusions_on_hand.png" title="abrusions on hand" alt="I fell of a bike" class="img-index"/>
                     </a>
                     <figcaption class="fig-index">Image by me.</figcaption>
                 </figure>
-                <footer>
+                <p class="textposition">
+                    Abrasions are injuries to the skin. It commonly occurs when exposed skin comes into moving contact with rough surfaces, which grinds the upper layers of the epidermis.
+                    Abrasions during sport usually happens in the form of stumbling, sliding, or coming in contact with rough surfaces, which results in bacteria and other diseases entering your wound, and can cause seriously harm your body. Perfect for allowing your immune system to go to work; and closing the abrasions, and the generation of memory cells for future disease infections.
+                </p>
+                <figure class="figure-index-mobile">
+                    <a href="https://en.wikipedia.org/wiki/Abrasion_(medical)">
+                        <img src="img/abrusions_on_hand.png" title="abrusions on hand" alt="I fell of a bike" class="img-index-mobile"/>
+                    </a>
+                    <figcaption class="fig-index-mobile">Image by me.</a></figcaption>
+                </figure>
+                <footer class="textposition">
                     <a href="https://en.wikipedia.org/wiki/Abrasion_(medical)">More info on Abrasions</a>
                 </footer>
             </article>
